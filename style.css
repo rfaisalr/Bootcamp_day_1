@@ -36,10 +36,10 @@ footer {
      color: aliceblue;
 }
 
-#link_navbar {
+/* #link_navbar {
     background-color: yellowgreen;
     justify-content: center;
-}
+} */
 
 #container_header {
     display: flex;
