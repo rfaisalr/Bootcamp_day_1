@@ -1,0 +1,70 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: "Merriweather", serif;
+    }
+
+body {
+      display: flex;
+      flex-direction: column;
+      background-color: #EDF7FF;
+}
+
+.container {
+    /* border: 2px solid black;
+    width: 900px;
+    height: 100%; */
+    padding-left: 100px;
+    padding-right: 100px;
+    flex: 1;
+}
+
+footer {
+      background-color: #1591DC;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+#judul {
+    background-color: #1591DC;
+    margin: 0px;
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 20px; 
+     color: aliceblue;
+}
+
+#link_navbar {
+    background-color: yellowgreen;
+    justify-content: center;
+}
+
+#container_header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #C4E2F5;  
+}
+
+#konten_kanan {
+    padding: 0;
+    margin-right: 10px;
+    
+}
+
+#konten_kiri {
+   margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #1d4ed8;
+}
+
+#konten_atas i {
+    font-size: 24px;
+}
